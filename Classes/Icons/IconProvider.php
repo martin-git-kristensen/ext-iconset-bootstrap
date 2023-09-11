@@ -36,7 +36,7 @@ class IconProvider implements IconProviderInterface
     {
         $icons = new IconList();
 
-        $directory = 'EXT:iconset_bootstrap/Resources/Public/Icons/Bootstrap/';
+        $directory = 'EXT:iconset_bootstrap/Resources/Public/Icons/';
         $path = GeneralUtility::getFileAbsFileName($directory);
         $files = iterator_to_array(new \FilesystemIterator($path, \FilesystemIterator::KEY_AS_PATHNAME));
         ksort($files);
