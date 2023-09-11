@@ -23,7 +23,7 @@ $EM_CONF[$_EXTKEY] = [
         ],
     ],
     'state' => 'stable',
-    'author' => 'Benjamin Kott' 'Martin Kristensen',
+    'author' => 'Benjamin Kott and Martin Kristensen' ,
     'author_email' => 'info@bk2k.info',
     'author_company' => 'private',
     'version' => '1.0.1',
